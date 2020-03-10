@@ -1,3 +1,6 @@
+I was able to get through most with my tutor. I didn't add the color yet where it changes based on what time it is
+
+
 # 05 Third-Party APIs: Work Day Scheduler
 
 Create a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
@@ -27,7 +30,9 @@ THEN I can enter an event
 WHEN I click the save button for that timeblock
 THEN the text for that event is saved in local storage
 WHEN I refresh the page
-THEN the saved events persist
+    read from local storage 
+    localstorage.setItem
+THEN the saved events persist (save to local storage)
 ```
 
 The following animation demonstrates the application functionality:
